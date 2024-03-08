@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+    text-align: center;
+}
+
+.frame {
+  display: inline-block;
+  padding: 0;
+  border-radius: 2px;
+  font-size: 4em;
+  text-shadow: 1px 2px gold;
+  color: red;
+  text-align: center;
+}
+.frame canvas {
+ 
+  padding: 0px 0px 0px 0px;
+  background-color: black;
+}
+
+#tree{
+
+position:absolute;
+left:50%;
+top:30%;
+transform:translate(-50%,-20%);
+}
+
+img
+{
+   position:absolute;
+left:50%;
+top:10%;
+transform:translate(-50%, 0%); 
+}
+
+p{
+       position:absolute;
+left:50%;
+top:70%;
+transform:translate(-50%, 0%); 
+line-height: 50px;
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+      position:absolute;
+left:50%;
+top:100%;
+transform:translate(-50%, 0%); 
+line-height: 50px;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px)
+{
+img
+{
+   position:absolute;
+left:50%;
+top:4%;
+transform:translate(-50%, 0%); 
+}
+    
+.frame {
+  display: inline-block;
+  padding: 0;
+  border-radius: 2px;
+  font-size: 3em;
+  text-shadow: 1px 2px gold;
+  color: red;
+  text-align: center;
+}
+}
